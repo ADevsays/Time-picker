@@ -1,9 +1,9 @@
-# Time-picker
+# ⏰ Time-picker
 Time picker creado con React para que sea reutilizable en otros proyectos. 
 Es un componente que permite seleccionar hora, minutos y obtener el resultado en el formato de fecha local del usuario. 
 Es perfectamente adaptable a otro software.
 
-## Cómo usar?
+## 🤔 ¿Cómo usar?
 
 - Primero clona este repo con 
 ```
@@ -25,6 +25,6 @@ npm run dev
 - En el componente TimePicker se almacenan los datos de la fecha escogida por el usuario. Para poder utilizar la fecha, hacer uso de la función getTimeInLocaleString.
 
 
-  -- Construido por Adevsays --
+  <small> Construido por Adevsays </small>
   
   
