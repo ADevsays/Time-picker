@@ -1,0 +1,57 @@
+:root {
+  --bg_time_color: #ece0fd;
+  --text-time-color: #351463;
+}
+
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+.container-time-picker {
+  max-width: 400px !important;
+}
+
+.container-time-picker p {
+  font-size: 14px !important;
+}
+.container-time-picker button{
+  color: var(--text-time-color) !important;
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 7px;
+  &:hover{
+    opacity: .7;
+  }
+}
+.show-number {
+  max-height: 100px;
+}
+
+.show-number span {
+  font-size: 4em;
+}
+
+.double-point span {
+  font-size: 4em;
+  max-height: 100px;
+}
+
+.period-indicator {
+  max-width: fit-content !important;
+  max-height: 100px;
+}
+
+.period-indicator div {
+  min-width: 60px !important;
+}
+
+.time-first-color {
+  background-color: var(--bg_time_color) !important;
+  color: var(--text-time-color) !important;
+}
